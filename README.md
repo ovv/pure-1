@@ -122,8 +122,8 @@ or changing the defaults in your `config.fish`, _e.g._:
 
 Specify the [`FISH_VERSION`][fish-releases] you want, and the `CMD` executed by the container:
 
-    make build-pure-on FISH_VERSION=3.1.2
-    make dev-pure-on FISH_VERSION=3.1.2 CMD="fishtape tests/*.test.fish"
+    make build-pure-on FISH_VERSION=3.3.1
+    make dev-pure-on FISH_VERSION=3.3.1 CMD="fishtape tests/*.test.fish"
 
 ## :man_technologist: Maintainer
 
